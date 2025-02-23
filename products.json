@@ -1,0 +1,70 @@
+{
+  "items": [
+    {
+      "sys": { "id": "1" },
+      "fields": {
+        "title": "Gynovit",
+        "price": 200,
+        "image": { "fields": { "file": { "url": "image/gynovit-syrup-1-549.png" } } }
+      }
+    },
+    {
+      "sys": { "id": "2" },
+      "fields": {
+        "title": "Arkamin",
+        "price": 150,
+        "image": { "fields": { "file": { "url": "image/arkamin_100mcg_tablet_30s_0_1.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "3" },
+      "fields": {
+        "title": "Clopitab",
+        "price": 75,
+        "image": { "fields": { "file": { "url": "image/clopitab.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "4" },
+      "fields": {
+        "title": "Dolo",
+        "price": 80,
+        "image": { "fields": { "file": { "url": "image/dolo.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "5" },
+      "fields": {
+        "title": "Vitamin-E tablets",
+        "price": 50,
+        "image": { "fields": { "file": { "url": "image/evion.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "6" },
+      "fields": {
+        "title": "Zincovit",
+        "price": 100,
+        "image": { "fields": { "file": { "url": "image/zincovit.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "7" },
+      "fields": {
+        "title": "Meftal Tablets",
+        "price": 85,
+        "image": { "fields": { "file": { "url": "image/meftal-spas-tab.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "8" },
+      "fields": {
+        "title": "cerlac",
+        "price": 500,
+        "image": { "fields": { "file": { "url": "image/cerlac.png" } } }
+      }
+    }
+    
+    
+  ]
+}
