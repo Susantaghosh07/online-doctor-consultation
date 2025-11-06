@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
 
 :root{
-    --blue:#166da0;
+    --green:#16a085;
     --black:#444;
-    --light-color:#777;
+    --light-color:#111;
     --box-shadow:.5rem .5rem 0 rgba(22, 160, 133, .2);
     --text-shadow:.4rem .4rem 0 rgba(0, 0, 0, .2);
-    --border:.2rem solid var(--blue);
+    --border:.2rem solid var(--green);
 }
 
 *{
@@ -91,16 +91,16 @@ section:nth-child(even){
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: #fff;
+    background: #33d9b2;
 }
 
 .header .logo{
     font-size: 2.5rem;
-    color: var(--red);
+    color: var(--black);
 }
 
 .header .logo i{
-    color: var(--red);
+    color: #c0392b;
 }
 
 .header .navbar a{
@@ -110,14 +110,14 @@ section:nth-child(even){
 }
 
 .header .navbar a:hover{
-    color: var(--green);
+    color:red;
 }
 
 #menu-btn{
     font-size: 2.5rem;
     border-radius: .5rem;
-    background: #eee;
-    color:var(--green);
+    background: var(--green);
+    color:#fff;
     padding: 1rem 1.5rem;
     cursor: pointer;
     display: none;
@@ -191,38 +191,6 @@ section:nth-child(even){
     color:var(--light-color);
 }
 
-.services .box-container{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
-    gap:2rem;
-}
-
-.services .box-container .box{
-    background:#fff;
-    border-radius: .5rem;
-    box-shadow: var(--box-shadow);
-    border:var(--border);
-    padding: 2.5rem;
-}
-
-.services .box-container .box i{
-    color: var(--green);
-    font-size: 5rem;
-    padding-bottom: .5rem;
-}
-
-.services .box-container .box h3{
-    color: var(--black);
-    font-size: 2.5rem;
-    padding:1rem 0;
-}
-
-.services .box-container .box p{
-    color: var(--light-color);
-    font-size: 1.4rem;
-    line-height: 2;
-}
-
 .about .row{
     display: flex;
     align-items: center;
@@ -255,6 +223,40 @@ section:nth-child(even){
     font-size: 1.5rem;
     line-height: 1.8;
 }
+
+
+.services .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
+    gap:2rem;
+}
+
+.services .box-container .box{
+    background:#fff;
+    border-radius: .5rem;
+    box-shadow: var(--box-shadow);
+    border:var(--border);
+    padding: 2.5rem;
+}
+
+.services .box-container .box i{
+    color: var(--green);
+    font-size: 5rem;
+    padding-bottom: .5rem;
+}
+
+.services .box-container .box h3{
+    color: var(--black);
+    font-size: 2.5rem;
+    padding:1rem 0;
+}
+
+.services .box-container .box p{
+    color: var(--light-color);
+    font-size: 1.4rem;
+    line-height: 2;
+}
+
 
 .doctors .box-container{
     display: grid;
@@ -310,22 +312,22 @@ section:nth-child(even){
     box-shadow: var(--box-shadow);
 }
 
-.book .row{
+.appointment .row{
     display: flex;
     align-items: center;
     flex-wrap: wrap;
     gap:2rem;
 }
  
-.book .row .image{
+.appointment .row .image{
     flex:1 1 45rem;
 }
 
-.book .row .image img{
+.appointment .row .image img{
     width: 100%;
 }
 
-.book .row form{
+.appointment .row form{
     flex:1 1 45rem;
     background: #fff;
     border:var(--border);
@@ -334,14 +336,21 @@ section:nth-child(even){
     padding: 2rem;
     border-radius: .5rem;
 }
+.appointment .row form .message{
+    margin-bottom: 2rem;
+    border-radius: .5rem;
+    padding: 1.5rem 1rem;
+    font-size: 1.7rem;
+    text-align: center;
 
-.book .row form h3{
+}
+.appointment .row form h3{
     color:var(--black);
     padding-bottom: 1rem;
     font-size: 3rem;
 }
 
-.book .row form .box{
+.appointment .row form .box{
     width: 100%;
     margin:.7rem 0;
     border-radius: .5rem;
@@ -352,7 +361,7 @@ section:nth-child(even){
     padding: 1rem;
 }
 
-.book .row form .btn{
+.appointment .row form .btn{
     padding:1rem 4rem;
 }
 
